@@ -1,0 +1,28 @@
+.services_box_wrapper {
+    display: flex;
+    justify-content: space-between;
+    .service_item {
+        flex-basis: 48%;
+        border: 1px solid $border_color;
+        img{
+            width: 100%;
+            height: auto;
+        }
+        div {
+            padding: 30px;
+            text-align: center;
+
+            h4 {
+                font-weight: bold;
+                font-size: 23px;
+                margin-bottom: 15px;
+            }
+
+            a {
+                color: $primary_colour;
+                text-transform: uppercase;
+                font-size: 18px;
+            }
+        }
+    }
+}

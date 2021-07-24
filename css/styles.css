@@ -48,6 +48,13 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-size: 21px;
+  color: #000000;
+  margin-bottom: 15px;
+  line-height: 1.4em;
+}
+
 .main-header {
   padding: 37px 0;
 }
@@ -126,6 +133,33 @@ body {
 }
 .hero a.btn:hover {
   opacity: 0.8;
+}
+
+.services_box_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.services_box_wrapper .service_item {
+  flex-basis: 48%;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.services_box_wrapper .service_item img {
+  width: 100%;
+  height: auto;
+}
+.services_box_wrapper .service_item div {
+  padding: 30px;
+  text-align: center;
+}
+.services_box_wrapper .service_item div h4 {
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.services_box_wrapper .service_item div a {
+  color: #814ebf;
+  text-transform: uppercase;
+  font-size: 18px;
 }
 
 .service_section {
