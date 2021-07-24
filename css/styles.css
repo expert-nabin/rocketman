@@ -121,6 +121,7 @@ body {
 .hero p {
   font-size: 30px;
   margin-bottom: 30px;
+  color: #ffffff;
 }
 .hero a.btn {
   display: inline-block;
