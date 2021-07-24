@@ -1,9 +1,11 @@
 .services_box_wrapper {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     .service_item {
         flex-basis: 48%;
         border: 1px solid $border_color;
+        margin-bottom: 50px;
         img{
             width: 100%;
             height: auto;
